@@ -1,30 +1,48 @@
 package controller;
 
 import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
+import javafx.scene.shape.Rectangle;
 
 public class StudentController {
 
     @FXML
-    private JFXButton btnlogin;
+    private JFXButton btnLogin;
 
     @FXML
-    private ImageView imghome;
+    private CheckBox checkBoxRememberMe;
 
     @FXML
-    private Label lableStManagementSys;
+    private ImageView imgUsername;
+
+    @FXML
+    private Label lableLoginForm;
 
     @FXML
     private JFXButton lableStudentList;
+
+    @FXML
+    private Label lableStudentMSystem;
+
+    @FXML
+    private Rectangle lableStudentManagementSystem;
 
     @FXML
     private JFXButton lbleCourses;
 
     @FXML
     private JFXButton lbleDashboard;
+
+    @FXML
+    private JFXTextField txtPassword;
+
+    @FXML
+    private JFXTextField txtUsername;
 
     @FXML
     void btnAttendanceOnAction(ActionEvent event) {
