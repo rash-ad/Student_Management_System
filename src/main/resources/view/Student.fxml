@@ -58,7 +58,7 @@
             </JFXButton>
          </children>
       </VBox>
-      <ImageView fx:id="imghome" fitHeight="174.0" fitWidth="227.0" layoutX="492.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imghome" fitHeight="149.0" fitWidth="216.0" layoutX="479.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/imagesfStudent.png" />
          </image>
@@ -68,6 +68,7 @@
             <Font name="Montserrat Regular" size="15.0" />
          </font>
       </Label>
-      <JFXButton fx:id="btnlogin" layoutX="248.0" layoutY="167.0" onAction="#btnLoginOnAction" prefHeight="29.0" prefWidth="78.0" style="-fx-background-color: green;" text="Login" />
+      <JFXButton fx:id="btnlogin" layoutX="251.0" layoutY="206.0" onAction="#btnLoginOnAction" prefHeight="29.0" prefWidth="78.0" style="-fx-background-color: green;" text="Login" />
+      <Label layoutX="233.0" layoutY="132.0" prefHeight="52.0" prefWidth="323.0" text="Manage Students,records,courses and  attendance with ease" />
    </children>
 </AnchorPane>
