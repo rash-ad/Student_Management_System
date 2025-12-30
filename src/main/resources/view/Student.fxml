@@ -13,7 +13,7 @@
 <AnchorPane prefHeight="497.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StudentController">
    <children>
       <JFXBadge />
-      <VBox layoutX="22.0" layoutY="23.0" prefHeight="452.0" prefWidth="200.0" style="-fx-background-color: #00a8ff;">
+      <VBox layoutX="22.0" layoutY="23.0" prefHeight="450.0" prefWidth="200.0" style="-fx-background-color: #00a8ff;">
          <children>
             <Label alignment="CENTER" prefHeight="60.0" prefWidth="198.0" text="Student Management System" textAlignment="CENTER" textFill="WHITE">
                <font>
@@ -36,17 +36,17 @@
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#btnAttendanceOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Attendence" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnAttendance" alignment="CENTER" contentDisplay="CENTER" onAction="#btnAttendanceOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Attendence" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#btnReportsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Reports" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnReports" alignment="CENTER" contentDisplay="CENTER" onAction="#btnReportsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Reports" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#btnSetttingsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Settings" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnSettings" alignment="CENTER" contentDisplay="CENTER" onAction="#btnSetttingsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Settings" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
