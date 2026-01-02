@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controller.ReportController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="565.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReportController">
+   <children>
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="532.0" prefWidth="199.0" style="-fx-background-color: #00a8ff;">
+         <children>
+            <Label alignment="CENTER" prefHeight="54.0" prefWidth="198.0" text="Student Management System" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="btnDashBoard" alignment="CENTER" contentDisplay="CENTER" onAction="#btnDashboardOnAction" prefHeight="41.0" prefWidth="202.0" style="-fx-background-color: #45aaf2;" text="Dashboard" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnStudentList" alignment="CENTER" contentDisplay="CENTER" onAction="#btnStudentListOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Student List" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnCourses" alignment="CENTER" contentDisplay="CENTER" onAction="#btnCOursesOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Courses" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnAttendance" alignment="CENTER" contentDisplay="CENTER" onAction="#btnAttendanceOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Attendence" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnReports" alignment="CENTER" contentDisplay="CENTER" onAction="#btnReportsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Reports" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnSettings" alignment="CENTER" contentDisplay="CENTER" onAction="#btnSetttingsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Settings" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnLogout" alignment="CENTER" contentDisplay="CENTER" onAction="#btnLogoutOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+      <JFXComboBox fx:id="comboBoxStudentReports" layoutX="226.0" layoutY="106.0" prefHeight="25.0" prefWidth="163.0" />
+      <Label alignment="CENTER" layoutX="224.0" layoutY="21.0" prefHeight="30.0" prefWidth="111.0" text="Reports">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="DateStudentReport" layoutX="408.0" layoutY="106.0" prefHeight="25.0" prefWidth="145.0" />
+      <JFXButton fx:id="btnGenerateReport" layoutX="579.0" layoutY="106.0" prefHeight="25.0" prefWidth="145.0" text="Generate Report">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
 </AnchorPane>
