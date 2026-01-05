@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="565.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReportController">
    <children>
       <VBox layoutX="14.0" layoutY="14.0" prefHeight="532.0" prefWidth="199.0" style="-fx-background-color: #00a8ff;">
@@ -64,10 +63,11 @@
          </font>
       </Label>
       <DatePicker fx:id="DateStudentReport" layoutX="408.0" layoutY="106.0" prefHeight="25.0" prefWidth="145.0" />
-      <JFXButton fx:id="btnGenerateReport" layoutX="579.0" layoutY="106.0" prefHeight="25.0" prefWidth="145.0" text="Generate Report">
+      <JFXButton fx:id="btnGenerateReport" layoutX="579.0" layoutY="97.0" onAction="#btnGenerateReportOnAction" prefHeight="36.0" prefWidth="180.0" style="-fx-background-color: #4b7bec;" text="Generate Report">
          <font>
-            <Font name="System Bold" size="14.0" />
+            <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
+      <JFXButton fx:id="btnExportReport" layoutX="239.0" layoutY="496.0" onAction="#btnExportReport" prefHeight="36.0" prefWidth="137.0" style="-fx-background-color: #4b7bec;" text="Export Report" />
    </children>
 </AnchorPane>
