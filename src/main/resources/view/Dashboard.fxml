@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="579.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
+   <children>
+      <VBox layoutX="6.0" layoutY="4.0" prefHeight="565.0" prefWidth="200.0" style="-fx-background-color: #00a8ff;">
+         <children>
+            <Label alignment="CENTER" prefHeight="54.0" prefWidth="218.0" text="Student Management System" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="btnDashBoard" alignment="CENTER" contentDisplay="CENTER" onAction="#btnDashboardOnAction" prefHeight="41.0" prefWidth="221.0" style="-fx-background-color: #45aaf2;" text="Dashboard" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnStudentList" alignment="CENTER" contentDisplay="CENTER" onAction="#btnStudentListOnAction" prefHeight="41.0" prefWidth="216.0" style="-fx-background-color: #45aaf2;" text="Student List" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnCourses" alignment="CENTER" contentDisplay="CENTER" onAction="#btnCOursesOnAction" prefHeight="41.0" prefWidth="217.0" style="-fx-background-color: #45aaf2;" text="Courses" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnAttendance" alignment="CENTER" contentDisplay="CENTER" onAction="#btnAttendanceOnAction" prefHeight="41.0" prefWidth="216.0" style="-fx-background-color: #45aaf2;" text="Attendence" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnReports" alignment="CENTER" contentDisplay="CENTER" onAction="#btnReportsOnAction" prefHeight="41.0" prefWidth="215.0" style="-fx-background-color: #45aaf2;" text="Reports" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnSettings" alignment="CENTER" contentDisplay="CENTER" onAction="#btnSetttingsOnAction" prefHeight="41.0" prefWidth="215.0" style="-fx-background-color: #45aaf2;" text="Settings" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnLogout" alignment="CENTER" contentDisplay="CENTER" onAction="#btnLogoutOnAction" prefHeight="41.0" prefWidth="215.0" style="-fx-background-color: #45aaf2;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+      <Label layoutX="232.0" layoutY="11.0" prefHeight="35.0" prefWidth="513.0" text="Dashboard">
+         <font>
+            <Font name="Arial Unicode MS" size="22.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="664.0" layoutY="16.0" text="settings" />
+      <Separator prefWidth="200.0" />
+      <Separator layoutX="206.0" layoutY="17.0" prefHeight="54.0" prefWidth="582.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cad0d7" height="62.0" layoutX="212.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cad0d7" height="62.0" layoutX="508.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cad0d7" height="62.0" layoutX="360.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cad0d7" height="62.0" layoutX="656.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="129.0" />
+      <Label layoutX="248.0" layoutY="78.0" prefHeight="25.0" prefWidth="104.0" text="Total Students">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="395.0" layoutY="78.0" prefHeight="25.0" prefWidth="104.0" text="Total Courses">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="78.0" prefHeight="25.0" prefWidth="104.0" text="Attendance Today">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="690.0" layoutY="78.0" prefHeight="25.0" prefWidth="94.0" text="Male VS Female">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="41.0" fitWidth="29.0" layoutX="218.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/totaltStudentsImg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="46.0" layoutX="366.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/TotalCoursesImg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="514.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/AttendanceIcon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
