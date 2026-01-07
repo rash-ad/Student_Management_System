@@ -14,45 +14,45 @@
 
 <AnchorPane fx:id="lbleAttendance" focusTraversable="true" prefHeight="573.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AttendanceController">
    <children>
-      <VBox layoutX="14.0" layoutY="21.0" prefHeight="532.0" prefWidth="199.0" style="-fx-background-color: #00a8ff;">
+      <VBox layoutX="2.0" layoutY="-4.0" prefHeight="573.0" prefWidth="216.0" style="-fx-background-color: #00a8ff;">
          <children>
-            <Label alignment="CENTER" prefHeight="54.0" prefWidth="198.0" text="Student Management System" textAlignment="CENTER" textFill="WHITE">
+            <Label alignment="CENTER" prefHeight="54.0" prefWidth="218.0" text="Student Management System" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Arial Black" size="12.0" />
                </font>
             </Label>
             <Separator prefWidth="200.0" />
-            <JFXButton fx:id="btnDashBoard" alignment="CENTER" contentDisplay="CENTER" onAction="#btnDashboardOnAction" prefHeight="41.0" prefWidth="202.0" style="-fx-background-color: #45aaf2;" text="Dashboard" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnDashBoard" alignment="CENTER" contentDisplay="CENTER" onAction="#btnDashboardOnAction" prefHeight="41.0" prefWidth="221.0" style="-fx-background-color: #45aaf2;" text="Dashboard" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="btnStudentList" alignment="CENTER" contentDisplay="CENTER" onAction="#btnStudentListOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Student List" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnStudentList" alignment="CENTER" contentDisplay="CENTER" onAction="#btnStudentListOnAction" prefHeight="41.0" prefWidth="216.0" style="-fx-background-color: #45aaf2;" text="Student List" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="btnCourses" alignment="CENTER" contentDisplay="CENTER" onAction="#btnCOursesOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Courses" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnCourses" alignment="CENTER" contentDisplay="CENTER" onAction="#btnCOursesOnAction" prefHeight="41.0" prefWidth="217.0" style="-fx-background-color: #45aaf2;" text="Courses" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="btnAttendance" alignment="CENTER" contentDisplay="CENTER" onAction="#btnAttendanceOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Attendence" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnAttendance" alignment="CENTER" contentDisplay="CENTER" onAction="#btnAttendanceOnAction" prefHeight="41.0" prefWidth="216.0" style="-fx-background-color: #45aaf2;" text="Attendence" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="btnReports" alignment="CENTER" contentDisplay="CENTER" onAction="#btnReportsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Reports" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnReports" alignment="CENTER" contentDisplay="CENTER" onAction="#btnReportsOnAction" prefHeight="41.0" prefWidth="215.0" style="-fx-background-color: #45aaf2;" text="Reports" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="btnSettings" alignment="CENTER" contentDisplay="CENTER" onAction="#btnSetttingsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Settings" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnSettings" alignment="CENTER" contentDisplay="CENTER" onAction="#btnSetttingsOnAction" prefHeight="41.0" prefWidth="215.0" style="-fx-background-color: #45aaf2;" text="Settings" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="btnLogout" alignment="CENTER" contentDisplay="CENTER" onAction="#btnLogoutOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Logout" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="btnLogout" alignment="CENTER" contentDisplay="CENTER" onAction="#btnLogoutOnAction" prefHeight="41.0" prefWidth="215.0" style="-fx-background-color: #45aaf2;" text="Logout" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Baskerville Old Face" size="15.0" />
                </font>
@@ -82,7 +82,7 @@
       </TableView>
       <Pane layoutX="221.0" layoutY="419.0" prefHeight="103.0" prefWidth="153.0">
          <children>
-            <Label fx:id="TotalStudents" alignment="CENTER" layoutY="6.0" prefHeight="25.0" prefWidth="153.0" text="Total Students" textFill="#1601ff">
+            <Label fx:id="TotalStudents" alignment="CENTER" layoutX="38.0" layoutY="6.0" prefHeight="25.0" prefWidth="115.0" text="Total Students" textFill="#1601ff">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
@@ -97,7 +97,7 @@
       </Pane>
       <Pane layoutX="388.0" layoutY="424.0" prefHeight="112.0" prefWidth="153.0">
          <children>
-            <Label fx:id="TotalStudents4" alignment="CENTER" layoutY="4.0" prefHeight="21.0" prefWidth="153.0" text="Total Courses" textFill="#1601ff">
+            <Label fx:id="TotalStudents4" alignment="CENTER" layoutX="46.0" layoutY="4.0" prefHeight="21.0" prefWidth="107.0" text="Total Courses" textFill="#1601ff">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
@@ -112,7 +112,7 @@
       </Pane>
       <Pane layoutX="552.0" layoutY="415.0" prefHeight="122.0" prefWidth="153.0">
          <children>
-            <Label fx:id="TotalStudents3" alignment="CENTER" layoutY="9.0" prefHeight="21.0" prefWidth="153.0" text="Present Today" textFill="#1601ff">
+            <Label fx:id="TotalStudents3" alignment="CENTER" layoutX="38.0" layoutY="9.0" prefHeight="21.0" prefWidth="115.0" text="Present Today" textFill="#1601ff">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
