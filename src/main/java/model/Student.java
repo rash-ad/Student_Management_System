@@ -9,8 +9,8 @@ import lombok.*;
 public class Student {
     private String id;
     private String name;
-    private String age;
-    private int grade;
-    private int marks;
+    private String classes;
+    private int status;
+    private int actions;
 
 }
