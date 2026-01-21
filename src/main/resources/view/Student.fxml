@@ -3,61 +3,14 @@
 <?import com.jfoenix.controls.JFXBadge?>
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Separator?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="497.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StudentController">
+<AnchorPane prefHeight="497.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StudentController">
    <children>
       <JFXBadge />
-      <VBox layoutX="22.0" layoutY="23.0" prefHeight="450.0" prefWidth="200.0" style="-fx-background-color: #00a8ff;">
-         <children>
-            <Label alignment="CENTER" prefHeight="60.0" prefWidth="198.0" text="Student Management System" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Arial Black" size="12.0" />
-               </font>
-            </Label>
-            <Separator prefWidth="200.0" />
-            <JFXButton fx:id="lbleDashboard" alignment="CENTER" contentDisplay="CENTER" onAction="#btnDashboardOnAction" prefHeight="41.0" prefWidth="202.0" style="-fx-background-color: #45aaf2;" text="Dashboard" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="18.0" />
-               </font>
-            </JFXButton>
-            <JFXButton fx:id="lableStudentList" alignment="CENTER" contentDisplay="CENTER" onAction="#btnStudentListOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Student List" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="18.0" />
-               </font>
-            </JFXButton>
-            <JFXButton fx:id="lbleCourses" alignment="CENTER" contentDisplay="CENTER" onAction="#btnCOursesOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Courses" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="18.0" />
-               </font>
-            </JFXButton>
-            <JFXButton fx:id="btnAttendance" alignment="CENTER" contentDisplay="CENTER" onAction="#btnAttendanceOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Attendence" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="18.0" />
-               </font>
-            </JFXButton>
-            <JFXButton fx:id="btnReports" alignment="CENTER" contentDisplay="CENTER" onAction="#btnReportsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Reports" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="18.0" />
-               </font>
-            </JFXButton>
-            <JFXButton fx:id="btnSettings" alignment="CENTER" contentDisplay="CENTER" onAction="#btnSetttingsOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Settings" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="18.0" />
-               </font>
-            </JFXButton>
-            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#btnLogoutOnAction" prefHeight="41.0" prefWidth="200.0" style="-fx-background-color: #45aaf2;" text="Logout" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Baskerville Old Face" size="15.0" />
-               </font>
-            </JFXButton>
-         </children>
-      </VBox>
       <ImageView fx:id="imghome" fitHeight="149.0" fitWidth="216.0" layoutX="479.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/imagesfStudent.png" />
@@ -70,5 +23,6 @@
       </Label>
       <JFXButton fx:id="btnlogin" layoutX="251.0" layoutY="206.0" onAction="#btnLoginOnAction" prefHeight="29.0" prefWidth="78.0" style="-fx-background-color: green;" text="Login" />
       <Label layoutX="233.0" layoutY="132.0" prefHeight="52.0" prefWidth="323.0" text="Manage Students,records,courses and  attendance with ease" />
+      <AnchorPane fx:id="dashRoot" layoutX="226.0" layoutY="6.0" prefHeight="483.0" prefWidth="497.0" />
    </children>
 </AnchorPane>

@@ -3,11 +3,16 @@ package controller;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
+
+import java.io.IOException;
+import java.net.URL;
 
 public class AttendanceController {
 
@@ -49,48 +54,14 @@ public class AttendanceController {
 
     @FXML
     private JFXButton btnStudentList;
+    @FXML
+    private AnchorPane dashRoot;
 
     @FXML
     private AnchorPane lbleAttendance;
 
     @FXML
     private TextField txtSearch;
-
-    @FXML
-    void btnAttendanceOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnCOursesOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnDashboardOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnLogoutOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnReportsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnSetttingsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnStudentListOnAction(ActionEvent event) {
-
-    }
-
     @FXML
     void txtFieldSearchEnter(KeyEvent event) {
 
