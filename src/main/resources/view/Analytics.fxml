@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="875.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AnalyticsController">
+   <children>
+      <Label layoutX="21.0" layoutY="16.0" prefHeight="35.0" prefWidth="513.0" text="Dashboard">
+         <font>
+            <Font name="Arial Unicode MS" size="22.0" />
+         </font>
+      </Label>
+      <Separator layoutX="5.0" layoutY="30.0" prefHeight="29.0" prefWidth="459.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="69.0" layoutX="17.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="69.0" layoutX="313.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="69.0" layoutX="165.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="69.0" layoutX="463.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" width="129.0" />
+      <Label fx:id="lableTotalStudent" layoutX="52.0" layoutY="76.0" prefHeight="25.0" prefWidth="104.0" text="Total Students">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lableTotalCourses" layoutX="210.0" layoutY="76.0" prefHeight="25.0" prefWidth="94.0" text="Total Courses">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lableAttendanceToday" layoutX="351.0" layoutY="76.0" prefHeight="25.0" prefWidth="104.0" text="Attendance Today">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgTotalStudents" fitHeight="41.0" fitWidth="29.0" layoutX="23.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/totaltStudentsImg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgTotalCourses" fitHeight="29.0" fitWidth="46.0" layoutX="171.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/TotalCoursesImg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAttendanceToday" fitHeight="29.0" fitWidth="29.0" layoutX="319.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/AttendanceIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="36.0" layoutX="455.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/settings.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="465.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/maleFemaleIcon.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lableNumberTotalStudents" alignment="CENTER" layoutX="23.0" layoutY="92.0" prefHeight="41.0" prefWidth="136.0" text="300">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lableNUmberTotalCourses" alignment="CENTER" layoutX="168.0" layoutY="96.0" prefHeight="41.0" prefWidth="136.0" text="300">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lableNumberAttendance" alignment="CENTER" layoutX="326.0" layoutY="96.0" prefHeight="45.0" prefWidth="68.0" text="300">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lableMaleVsFemale" layoutX="492.0" layoutY="72.0" prefHeight="25.0" prefWidth="94.0" text="Male VS Female">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

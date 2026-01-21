@@ -3,14 +3,22 @@ package controller;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
+
+import java.io.IOException;
+import java.net.URL;
 
 public class StudentController {
 
     @FXML
     private JFXButton btnAttendance;
 
+    @FXML
+    private AnchorPane dashRoot;
     @FXML
     private JFXButton btnLogout;
 
@@ -38,44 +46,12 @@ public class StudentController {
     @FXML
     private JFXButton lbleDashboard;
 
-    @FXML
-    void btnAttendanceOnAction(ActionEvent event) {
+
+    public void btnLoginOnAction(ActionEvent actionEvent) {
 
     }
-
-    @FXML
-    void btnCOursesOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnDashboardOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnLoginOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnLogoutOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnReportsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnSetttingsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnStudentListOnAction(ActionEvent event) {
-
-    }
-
 }
+
+
+
+
