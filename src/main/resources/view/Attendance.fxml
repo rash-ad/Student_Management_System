@@ -20,16 +20,16 @@
       </Label>
       <TextField fx:id="txtSearch" layoutX="493.0" layoutY="30.0" onKeyPressed="#txtFieldSearchEnter" prefHeight="25.0" prefWidth="234.0" promptText="search" />
       <DatePicker fx:id="Date" layoutX="34.0" layoutY="67.0" prefHeight="25.0" prefWidth="177.0" promptText="Date" />
-      <JFXButton fx:id="btnAddStudent" alignment="CENTER" layoutX="564.0" layoutY="79.0" prefHeight="30.0" prefWidth="144.0" style="-fx-background-color: green;" text="Add Student" textFill="WHITE">
+      <JFXButton fx:id="btnAddStudent" alignment="CENTER" layoutX="564.0" layoutY="79.0" onAction="#btnAddStudentOnAction" prefHeight="30.0" prefWidth="144.0" style="-fx-background-color: green;" text="Add Student" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
       </JFXButton>
-      <TableView layoutX="14.0" layoutY="129.0" prefHeight="269.0" prefWidth="747.0">
+      <TableView fx:id="tableStudents" layoutX="14.0" layoutY="129.0" prefHeight="269.0" prefWidth="747.0">
         <columns>
           <TableColumn fx:id="ColId" prefWidth="105.0" text="ID" />
           <TableColumn fx:id="ColName" prefWidth="145.0" text="Name" />
-            <TableColumn fx:id="ColStatus" minWidth="0.0" prefWidth="157.0" text="Class" />
+            <TableColumn fx:id="ColClass" minWidth="0.0" prefWidth="157.0" text="Class" />
             <TableColumn fx:id="ColStatus" prefWidth="140.0" text="Status" />
             <TableColumn fx:id="ColActions" prefWidth="199.0" text="Actions" />
         </columns>
