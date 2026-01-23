@@ -42,48 +42,11 @@ public class ReportController {
     private JFXComboBox<?> comboBoxStudentReports;
 
     @FXML
-    void btnAttendanceOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnCOursesOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnDashboardOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnExportReport(ActionEvent event) {
-
-    }
-
-    @FXML
     void btnGenerateReportOnAction(ActionEvent event) {
 
     }
 
-    @FXML
-    void btnLogoutOnAction(ActionEvent event) {
+    public void btnExportReport(ActionEvent actionEvent) {
 
     }
-
-    @FXML
-    void btnReportsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnSetttingsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnStudentListOnAction(ActionEvent event) {
-
-    }
-
 }

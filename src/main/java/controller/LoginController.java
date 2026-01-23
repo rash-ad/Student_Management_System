@@ -25,19 +25,10 @@ public class LoginController {
     private Label lableLoginForm;
 
     @FXML
-    private JFXButton lableStudentList;
-
-    @FXML
     private Label lableStudentMSystem;
 
     @FXML
     private Rectangle lableStudentManagementSystem;
-
-    @FXML
-    private JFXButton lbleCourses;
-
-    @FXML
-    private JFXButton lbleDashboard;
 
     @FXML
     private Hyperlink linkForgotPassword;
@@ -49,42 +40,7 @@ public class LoginController {
     private JFXTextField txtUsername;
 
     @FXML
-    void btnAttendanceOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnCOursesOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnDashboardOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
     void btnLoginOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnLogoutOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnReportsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnSetttingsOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnStudentListOnAction(ActionEvent event) {
 
     }
 
